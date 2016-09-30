@@ -1,0 +1,163 @@
+//
+//  NVSchoolPrefixHeader.pch
+//  NVSchool
+//
+//  Created by qianfeng on 15/9/29.
+//  Copyright (c) 2015年 李辉. All rights reserved.
+//
+
+#ifndef NVSchool_NVSchoolPrefixHeader_pch
+#define NVSchool_NVSchoolPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//首页
+//http://mobileapi.liequ.cn/c2c/get_idle_hot_goods_list
+//label_name	苹果二手
+//count	20
+//command	get_idle_hot_goods_list
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//version_code	332
+//last_id	0
+//channel	5001.1007.1001
+#define CHECK @"http://mobileapi.liequ.cn/c2c/check_version"
+//command	check_version
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//version_code	332
+//channel	5001.1007.1001
+#define MAINURL @"http://mobileapi.liequ.cn/c2c/get_idle_hot_goods_list"
+#define MAIN_BANNER @"http://mobileapi.liequ.cn/c2c/get_idle_hot_goods_banner"
+//command	get_idle_hot_goods_banner
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//version_code	332
+//channel	5001.1007.1001
+#define GOOD_DETAIL @"http://mobileapi.liequ.cn/c2c/get_product_by_id"
+//command	get_product_by_id
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//product_id	200-125581-------------
+//version_code	332
+//channel	5001.1007.1001
+
+#define DETAIL_MORE @"http://mobileapi.liequ.cn/c2c/get_detail_more"
+//token	77e106dff6a22945c14259aa22dac5dd   (登录后)
+//command	get_detail_more
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//product_id	200-91618
+//version_code	332
+//user_id	1666947
+//channel	5001.1007.1001
+
+//command	get_detail_more
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//product_id	200-123130
+//version_code	332
+//channel	5001.1007.1001
+#define PHONE_LOG @"http://mobileapi.liequ.cn/c2c/request_sms_verify"
+//command	request_sms_verify
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//phone_num	18271837433
+//version_code	332
+//type	1
+//channel	5001.1007.1001
+#define CITY _name @"http://mobileapi.liequ.cn/c2c/get_city_name"
+//command	get_city_name
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//version_code	332
+//channel	5001.1007.1001
+//city	武汉市
+#define NEAR_GOOD @"http://mobileapi.liequ.cn/c2c/get_nearby_result_without_seller"
+//count	10
+//isLocation	0
+//command	get_nearby_result_without_seller
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//version_code	332
+//last_id	0
+//channel	5001.1007.1001
+//city	武汉
+//latitude	30.453885
+//longitude	114.429021
+//time	0
+
+//count	10
+//isLocation	0
+//command	get_nearby_result_without_seller
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//version_code	332
+//last_id	18
+//channel	5001.1007.1001
+//city	武汉
+//latitude	30.453885
+//longitude	114.429021
+//time	1444808934031
+
+#define GET_CITY @"http://mobileapi.liequ.cn/c2c/get_nearby_city"
+//command	get_nearby_city
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//version_code	332
+//channel	5001.1007.1001
+#define FIFTER_OPTITIONS @"http://mobileapi.liequ.cn/c2c/nearby_filter_options"
+//command	nearby_filter_options
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//version_code	332
+//channel	5001.1007.1001
+//city	武汉
+//latitude	30.453871
+//longitude	114.428996
+#define CATEGORY @"http://mobileapi.liequ.cn/c2c/all_category"
+//    command	all_category
+//    source	android
+//    version	3.3.2
+//    client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//    version_code	332
+//    type	0
+//    channel	5001.1007.1001
+#define MAPMARKS @"http://mobileapi.liequ.cn/c2c/get_markers_by_level"
+//command	get_markers_by_level
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//level	3
+//version_code	332
+//time	1444985978866
+//channel	5001.1007.1001
+//city	武汉
+//latitude	30.453871
+//longitude	114.428996
+#define FILTER @"http://mobileapi.liequ.cn/c2c/get_product_by_filter_two"
+//count	20
+//category_id	35
+//command	get_product_by_filter_two
+//source	android
+//version	3.3.2
+//client_id	864260027683510_68:df:dd:99:f6:29_com.yunmall.ymctoc
+//search_type	0
+//level	2
+//version_code	332
+//last_id	0
+//channel	5001.1007.1001
+#endif
+//
